@@ -1,0 +1,30 @@
+{
+  "name": "submission",
+  "version": "1.0.0",
+  "description": "Submission for frontend class dicoding",
+  "main": "index.js",
+  "scripts": {
+    "start-dev": "webpack-dev-server --config webpack.dev.js",
+    "build:prod": "webpack --config webpack.prod.js"
+  },
+  "author": "Shaddam_Alghafiqih <shaddamalghafiqih11@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@popperjs/core": "^2.4.2",
+    "jquery": "^3.5.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.2",
+    "@babel/preset-env": "^7.10.2",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^3.5.3",
+    "file-loader": "^6.0.0",
+    "html-loader": "^1.1.0",
+    "html-webpack-plugin": "^4.3.0",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.11.0",
+    "webpack-merge": "^4.2.2"
+  }
+}
