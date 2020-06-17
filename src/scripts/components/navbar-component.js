@@ -1,5 +1,7 @@
-class Navbar extends HTMLElement {
+import image from '../../assets/img/movie.png';
 
+class Navbar extends HTMLElement {
+    
     connectedCallback(){
         this.render();
     }
@@ -10,7 +12,7 @@ class Navbar extends HTMLElement {
         <div class="container">
             <nav class="navbar navbar-light bg-white">
                 <a class="navbar-brand" href="#">
-                <img src="src/assets/img/movie.png" width="30" height="30" class="d-inline-block align-top" alt="">
+                <img src="${image}" width="30" height="30" class="d-inline-block align-top" alt="">
                 Movielist.org
                 </a>
             </nav>
